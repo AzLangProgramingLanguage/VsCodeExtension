@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "_az": {
+      "iconPath": "./images/azlang.svg"
+    }
+  },
+  "fileExtensions": {
+    "az": "_az"
+  }
+}

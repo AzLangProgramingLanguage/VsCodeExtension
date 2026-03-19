@@ -1,0 +1,40 @@
+{
+  "name": "azlang-syntax",
+  "displayName": "AzLang Syntax Highlight",
+  "description": "Basic syntax highlighting for AzLang",
+  "version": "0.0.1",
+  "publisher": "prestgg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prestgg/azlang-vscode"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Programming Languages"],
+  "icon": "images/azlang.png",
+  "contributes": {
+    "languages": [
+      {
+        "id": "azlang",
+        "aliases": ["AzLang", "azlang"],
+        "extensions": [".az"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "azlang",
+        "scopeName": "source.azlang",
+        "path": "./syntaxes/azlang.tmLanguage.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "azlang-icons",
+        "label": "AzLang Icons",
+        "path": "./icons/azlang-icon-theme.json"
+      }
+    ]
+  }
+}

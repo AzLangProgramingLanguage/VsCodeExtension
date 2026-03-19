@@ -4,9 +4,12 @@
   "description": "Basic syntax highlighting for AzLang",
   "version": "0.0.1",
   "publisher": "prestgg",
+  "fileNames": {
+  "test.az": "_az"
+},
   "repository": {
     "type": "git",
-    "url": "https://github.com/prestgg/azlang-vscode"
+    "url": "https://github.com/AzLangProgramingLanguage/VsCodeExtension"
   },
   "engines": {
     "vscode": "^1.80.0"
